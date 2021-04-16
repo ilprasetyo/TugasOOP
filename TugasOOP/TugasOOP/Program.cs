@@ -12,7 +12,7 @@ namespace TugasOOP
         {
             String restart;
             Console.WriteLine("........");
-            Console.WriteLine("Type Yes to restart program");
+            Console.WriteLine("Ketik Yes untuk restart program");
             restart = Console.ReadLine();
 
             if (restart.ToUpper() == "YES")
