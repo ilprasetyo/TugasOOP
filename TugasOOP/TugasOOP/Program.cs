@@ -82,6 +82,9 @@ namespace TugasOOP
                         program.Restart();
                         break;
                     case 5:
+                        Trapesium menu5 = new Trapesium();
+                        menu5.HitungLuas();
+                        menu5.HitungKeliling();
                         program.Restart();
                         break;
                     default:

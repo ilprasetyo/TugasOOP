@@ -51,8 +51,7 @@ namespace TugasOOP
             sisi_miring = (Math.Pow(0.5 * getAlas(), 2)) + (Math.Pow(getTinggi(), 2));
             setSisi(Math.Sqrt(sisi_miring));
             double hasil = (getSisi()*2) + getAlas();
-            Console.WriteLine(getSisi());
-            Console.WriteLine("Luas Segitiga : " + hasil.ToString("0.00"));
+            Console.WriteLine("Keliling Segitiga : " + hasil.ToString("0.00"));
         }
     }
 }
