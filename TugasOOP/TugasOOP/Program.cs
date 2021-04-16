@@ -35,12 +35,13 @@ namespace TugasOOP
         {
             Program program = new Program();
             Persegi menu1 = new Persegi();
+            PersegiPanjang menu2 = new PersegiPanjang();
 
             int menu;
             try
             {
 
-                Console.WriteLine("Program Hitung Luasdan Keliling Bangun Datar");
+                Console.WriteLine("Program Hitung Luas dan Keliling Bangun Datar");
                 Console.WriteLine("");
                 Console.WriteLine("1. Persegi ");
                 Console.WriteLine("2. Persegi Panjang");
@@ -60,6 +61,8 @@ namespace TugasOOP
                         program.Restart();
                         break;
                     case 2:
+                        menu2.HitungLuas();
+                        menu2.HitungKeliling();
                         program.Restart();
                         break;
                     case 3:
