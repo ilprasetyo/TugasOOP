@@ -26,13 +26,15 @@ namespace TugasOOP
         {
             return lebar;
         }
-        public override void HitungLuas()
+        public override void Inputan()
         {
             Console.WriteLine("Masukan Panjang(Cm) : ");
             setPanjang(panjang = Convert.ToDouble(Console.ReadLine()));
             Console.WriteLine("Masukan Lebar(Cm) : ");
             setLebar(lebar = Convert.ToDouble(Console.ReadLine()));
-
+        }
+        public override void HitungLuas()
+        {
             double hasil = getPanjang()*getLebar();
             Console.WriteLine("Luas Persegi Panjang : " + hasil.ToString("0.00"));
         }

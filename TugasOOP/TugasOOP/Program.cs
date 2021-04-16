@@ -36,6 +36,7 @@ namespace TugasOOP
             Program program = new Program();
             Persegi menu1 = new Persegi();
             PersegiPanjang menu2 = new PersegiPanjang();
+            Lingkaran menu3 = new Lingkaran();
 
             int menu;
             try
@@ -56,16 +57,22 @@ namespace TugasOOP
                 switch (program.getMenu())
                 {
                     case 1:
+                        menu1.Inputan();
+                        menu1.Line();
                         menu1.HitungLuas();
                         menu1.HitungKeliling();
                         program.Restart();
                         break;
                     case 2:
+                        menu2.Inputan();
+                        menu2.Line();
                         menu2.HitungLuas();
                         menu2.HitungKeliling();
                         program.Restart();
                         break;
                     case 3:
+                        menu3.HitungLuas();
+                        menu3.HitungKeliling();
                         program.Restart();
                         break;
                     case 4:

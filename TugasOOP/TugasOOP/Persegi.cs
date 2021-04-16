@@ -18,10 +18,12 @@ namespace TugasOOP
         {
             return sisi;
         }
-        public virtual void HitungLuas() {
+        public virtual void Inputan()
+        {
             Console.WriteLine("Masukan Panjang Sisi(Cm) : ");
             setSisi(sisi = Convert.ToDouble(Console.ReadLine()));
-
+        }
+        public virtual void HitungLuas() {
             double hasil = Math.Pow(getSisi(), 2);
             Console.WriteLine("Luas Persegi : "+hasil.ToString("0.00"));
         }
@@ -29,6 +31,9 @@ namespace TugasOOP
         {
             double hasil = getSisi()*4;
             Console.WriteLine("keliling Persegi : " + hasil.ToString("0.00"));
+        }
+        public void Line() {
+            Console.WriteLine("-----------Result-----------");
         }
     }
 }

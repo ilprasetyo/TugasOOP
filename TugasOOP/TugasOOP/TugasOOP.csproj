@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ILingkaran.cs" />
     <Compile Include="Lingkaran.cs" />
     <Compile Include="Persegi.cs" />
     <Compile Include="PersegiPanjang.cs" />
