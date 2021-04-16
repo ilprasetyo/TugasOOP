@@ -43,9 +43,9 @@ namespace TugasOOP
         }
         public Trapesium()
         {
-            Console.WriteLine("Masukan Sisi Atas Trapesium(Cm) : ");
+            Console.WriteLine("Masukan Panjang Sisi Atas Trapesium(Cm) : ");
             setAtas(atas = Convert.ToDouble(Console.ReadLine()));
-            Console.WriteLine("Masukan Sisi Bawah Trapesium(Cm) : ");
+            Console.WriteLine("Masukan Panjang Sisi Bawah Trapesium(Cm) : ");
             setBawah(bawah = Convert.ToDouble(Console.ReadLine()));
             Console.WriteLine("Masukan Tinggi Trapesium(Cm) : ");
             setTinggi(tinggi = Convert.ToDouble(Console.ReadLine()));

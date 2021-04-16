@@ -50,7 +50,7 @@ namespace TugasOOP
                 Console.WriteLine("4. Segitiga");
                 Console.WriteLine("5. Trapesium");
                 Console.WriteLine("");
-                Console.WriteLine("Input Number From 1-5");
+                Console.WriteLine("Masukkan Nomor 1-5");
 
                 program.setMenu(menu = Convert.ToInt16(Console.ReadLine()));
 
@@ -88,8 +88,8 @@ namespace TugasOOP
                         program.Restart();
                         break;
                     default:
-                        Console.WriteLine("Can't Insert " + program.getMenu());
-                        Console.WriteLine("Please Insert Number 1-5");
+                        Console.WriteLine("Tidak Bisa Memasukkan Angka " + program.getMenu());
+                        Console.WriteLine("Masukkan Nomor 1-5");
                         program.Restart();
                         break;
                 }
@@ -97,7 +97,7 @@ namespace TugasOOP
             }
             catch (FormatException)
             {
-                Console.WriteLine("Please Insert Number, Not Alphabet");
+                Console.WriteLine("Harap Inputkan Nomor, Bukan Huruf");
                 program.Restart();
             }
         }
