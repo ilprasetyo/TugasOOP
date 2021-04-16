@@ -76,6 +76,9 @@ namespace TugasOOP
                         program.Restart();
                         break;
                     case 4:
+                        Segitiga menu4 = new Segitiga();
+                        menu4.HitungLuas();
+                        menu4.HitungKeliling();
                         program.Restart();
                         break;
                     case 5:
