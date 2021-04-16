@@ -34,13 +34,13 @@ namespace TugasOOP
         static void Main()
         {
             Program program = new Program();
-            
+            Persegi menu1 = new Persegi();
 
             int menu;
             try
             {
 
-                Console.WriteLine("Program Hitung Luas Bangun Datar");
+                Console.WriteLine("Program Hitung Luasdan Keliling Bangun Datar");
                 Console.WriteLine("");
                 Console.WriteLine("1. Persegi ");
                 Console.WriteLine("2. Persegi Panjang");
@@ -55,6 +55,8 @@ namespace TugasOOP
                 switch (program.getMenu())
                 {
                     case 1:
+                        menu1.HitungLuas();
+                        menu1.HitungKeliling();
                         program.Restart();
                         break;
                     case 2:
@@ -64,8 +66,10 @@ namespace TugasOOP
                         program.Restart();
                         break;
                     case 4:
+                        program.Restart();
                         break;
                     case 5:
+                        program.Restart();
                         break;
                     default:
                         Console.WriteLine("Can't Insert " + program.getMenu());

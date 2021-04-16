@@ -8,5 +8,6 @@ namespace TugasOOP
 {
     class Trapesium
     {
+
     }
 }

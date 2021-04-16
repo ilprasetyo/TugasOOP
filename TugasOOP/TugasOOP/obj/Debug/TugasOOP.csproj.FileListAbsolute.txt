@@ -1,0 +1,7 @@
+C:\Users\ilpra\Documents\GitHub\TugasOOP\TugasOOP\TugasOOP\TugasOOP\bin\Debug\TugasOOP.exe.config
+C:\Users\ilpra\Documents\GitHub\TugasOOP\TugasOOP\TugasOOP\TugasOOP\bin\Debug\TugasOOP.exe
+C:\Users\ilpra\Documents\GitHub\TugasOOP\TugasOOP\TugasOOP\TugasOOP\bin\Debug\TugasOOP.pdb
+C:\Users\ilpra\Documents\GitHub\TugasOOP\TugasOOP\TugasOOP\TugasOOP\obj\Debug\TugasOOP.csprojAssemblyReference.cache
+C:\Users\ilpra\Documents\GitHub\TugasOOP\TugasOOP\TugasOOP\TugasOOP\obj\Debug\TugasOOP.csproj.CoreCompileInputs.cache
+C:\Users\ilpra\Documents\GitHub\TugasOOP\TugasOOP\TugasOOP\TugasOOP\obj\Debug\TugasOOP.exe
+C:\Users\ilpra\Documents\GitHub\TugasOOP\TugasOOP\TugasOOP\TugasOOP\obj\Debug\TugasOOP.pdb
